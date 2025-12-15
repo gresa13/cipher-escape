@@ -1,1 +1,78 @@
+version: '3.8'
 
+services:
+  # ------------------------------------------------------------
+  # PostgreSQL Database (Shared Instance)
+  # ------------------------------------------------------------
+  postgres:
+    image: postgres:16-alpine
+    container_name: cipher_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: cipher_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - cipher-net
+
+  # ------------------------------------------------------------
+  # Redis Cache (Leaderboards, AI results)
+  # ------------------------------------------------------------
+  redis:
+    image: redis:7.2-alpine
+    container_name: cipher_redis
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    networks:
+      - cipher-net
+
+  # ------------------------------------------------------------
+  # Zookeeper (Required for Kafka)
+  # ------------------------------------------------------------
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.6.0
+    container_name: cipher_zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+    networks:
+      - cipher-net
+
+  # ------------------------------------------------------------
+  # Apache Kafka (Event Bus)
+  # ------------------------------------------------------------
+  kafka:
+    image: confluentinc/cp-kafka:7.6.0
+    container_name: cipher_kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      # Allows connection from inside docker network (kafka:29092) AND localhost (localhost:9092)
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    networks:
+      - cipher-net
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  cipher-net:
+    driver: bridge
