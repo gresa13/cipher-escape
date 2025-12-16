@@ -1,33 +1,30 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
+### Root Level Exclusions ###
+.idea/
 *.iws
 *.iml
 *.ipr
+/target/
+/out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+### General Java / Maven ###
+**/target/
+**/build/
+**/out/
+.mvn/wrapper/maven-wrapper.jar
 
-### VS Code ###
+### OS & IDE Files ###
+.DS_Store
+Thumbs.db
 .vscode/
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### App Specific ###
+backend/game-event-service/HELP.md
+
+### Exceptions (Keep these) ###
+!**/src/main/**/target/
+!**/src/test/**/target/
