@@ -1,0 +1,30 @@
+### Root Level Exclusions ###
+.idea/
+*.iws
+*.iml
+*.ipr
+/target/
+/out/
+
+### General Java / Maven ###
+**/target/
+**/build/
+**/out/
+.mvn/wrapper/maven-wrapper.jar
+
+### OS & IDE Files ###
+.DS_Store
+Thumbs.db
+.vscode/
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### App Specific ###
+backend/game-event-service/HELP.md
+
+### Exceptions (Keep these) ###
+!**/src/main/**/target/
+!**/src/test/**/target/

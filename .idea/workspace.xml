@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e3ccae6-d23c-4a7b-9565-5cb580776904" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Team Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/controller/AdminMysteryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/controller/AdminMysteryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/dto/MysteryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/dto/MysteryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/dto/PuzzleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/dto/PuzzleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/model/Mystery.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/model/Mystery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/model/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/model/Puzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/repository/MysteryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/repository/MysteryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/service/MysteryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/java/com/cipherescape/gameeventservice/service/MysteryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V1__create_users_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V1__create_users_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V2__create_mysteries_puzzles_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V2__create_mysteries_puzzles_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V3__create_game_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V3__create_game_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V4__create_leaderboard_achievement_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V4__create_leaderboard_achievement_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V5__create_social_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V5__create_social_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V6__create_audit_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V6__create_audit_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/game-event-service/src/main/resources/db/migration/V7__create_puzzle_collections.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/backend">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/backend">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="backend" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="backend" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kaltrinabajramii&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gresa13/cipher-escape.git&quot;,
+    &quot;accountId&quot;: &quot;ab5e53c2-07e5-475a-9d5b-7960bc7bd69a&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$/backend" gradleHome="C:\Users\kaltr\.gradle\wrapper\dists\gradle-8.14-bin\38aieal9i53h9rfe7vjup95b9\gradle-8.14" javaHome="C:\Users\kaltr\.jdks\openjdk-24.0.1" gradleVersion="8.14" />
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="36qugMVnLpQ4o5xrWgh2fks2IDg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.game-event-service [clean].executor": "Run",
+    "Maven.game-event-service [compile].executor": "Run",
+    "Maven.game-event-service [validate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.GameEventServiceApplication.executor": "Run",
+    "git-widget-placeholder": "feature/mystery-crud",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kaltr/Desktop/Semestri IX/cipher-escape",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.GameEventServiceApplication">
+    <configuration name="game-event-service [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/backend/game-event-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="game-event-service [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/backend/game-event-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="game-event-service [validate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="validate" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/backend/game-event-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="GameEventServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="game-event-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cipherescape.gameeventservice.GameEventServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.game-event-service [clean]" />
+        <item itemvalue="Maven.game-event-service [compile]" />
+        <item itemvalue="Maven.game-event-service [validate]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e3ccae6-d23c-4a7b-9565-5cb580776904" name="Changes" comment="" />
+      <created>1765746532577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765746532577</updated>
+      <workItem from="1765746533814" duration="9663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
