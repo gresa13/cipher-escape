@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Service
@@ -38,19 +37,20 @@ public class MysteryService {
                 .collect(Collectors.toList());
     }
 
-    public MysteryDTO getMysteryById(UUID id) {
+    public MysteryDTO getMysteryById(Long id) {
         Mystery mystery = repository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Mystery not found"));
         return mystery.toDTO();
     }
 
+    @Transactional
     public MysteryDTO createMystery(MysteryDTO mysteryDTO) {
         Mystery mystery = Mystery.fromDTO(mysteryDTO);
         Mystery savedMystery = repository.save(mystery);
         return savedMystery.toDTO();
     }
 
-    public MysteryDTO updateMystery(UUID id, MysteryDTO mysteryDetails) {
+    public MysteryDTO updateMystery(Long id, MysteryDTO mysteryDetails) {
         Mystery existing = repository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Mystery not found"));
 
@@ -66,7 +66,7 @@ public class MysteryService {
     }
 
 
-    public void deleteMystery(UUID id) {
+    public void deleteMystery(Long id) {
         // TODO: In Phase 2, inject GameRepository and check count > 0
         boolean hasBeenPlayed = false; // Mocking this as false for now so you can test delete
 

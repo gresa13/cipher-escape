@@ -12,8 +12,8 @@ import java.util.UUID;
 @Data
 public class Puzzle {
     @Id
-    @GeneratedValue
-    private UUID id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @ManyToOne
     @JoinColumn(name = "mystery_id")

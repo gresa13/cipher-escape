@@ -7,7 +7,7 @@ import java.util.UUID;
 
 @Data
 public class MysteryDTO {
-    private UUID id;
+    private Long id;
     private String title;
     private String theme;
     private Integer difficultyLevel;

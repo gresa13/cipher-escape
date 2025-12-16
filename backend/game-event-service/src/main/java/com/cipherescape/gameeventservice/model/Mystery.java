@@ -15,8 +15,8 @@ import java.util.stream.Collectors;
 @Data
 public class Mystery {
     @Id
-    @GeneratedValue
-    private UUID id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     private String title;
     private String theme;
